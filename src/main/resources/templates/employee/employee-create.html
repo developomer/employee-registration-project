@@ -13,14 +13,14 @@
 </head>
 <body>
 
-<div class="container">,
+<div class="container">
     <div class="d-flex justify-content-center">
         <div class="card">
             <h3 align="center" class="card-header bg-info text-white p-5">
                 Welcome To Employee Registration Page
             </h3>
             <div class="card-body">
-                <form th:object="${employee}" th:action="@{/employee/insert}">
+                <form action="#" th:object="${employee}" th:action="@{/employee/insert}" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="inputEmail4">First Name</label>
